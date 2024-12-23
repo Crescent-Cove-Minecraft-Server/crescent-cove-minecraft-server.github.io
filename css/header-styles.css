@@ -1,0 +1,57 @@
+/* Topbar Styles */
+.topbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    background-color: var(--sea-blue);
+}
+
+.topbar-column {
+    color: black;
+    display: flex;
+    vertical-align: middle;
+}
+
+/* Server Time Styles */
+
+.server-time {
+    padding: 2px 0 8px 0;
+    margin: auto;
+    text-align: center;
+    background-color: var(--sea-blue);
+    font-size: 1em;
+    color: black;
+}
+
+/* Navbar Styles */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 4px 8px 4px;
+    background-color: var(--sea-blue);
+    transition: background-color 0.5s;
+}
+
+.navbar-link-wrapper {
+    padding: 8px 4px 8px 4px;
+    margin: 4px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: var(--light-blue);
+    text-decoration: none;
+    font-family: "Fredoka One";
+    font-size: 1.5em;
+    text-shadow: -1px 1px 2px black, 2px 2px 2px black, 1px -1px 0 black, -1px -1px 0 black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border 0.25s, color 0.25s;
+}
+
+.navbar-link-wrapper:hover {
+    border: 2px solid black;
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+}
